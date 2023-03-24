@@ -27,9 +27,15 @@ Please acknowledge that the following validation checks have been performed prio
 
 ### Standard Updates
 Please acknowledge that your PR contains the following standard updates:
-- [ ] dbt versioning has been appropriately indexed
+- Package versioning has been appropriately indexed in the following locations:
+    - [ ] indexed within dbt_project.yml
+    - [ ] indexed within integration_tests/dbt_project.yml
 - [ ] CHANGELOG entry has been added
 - [ ] README updates have been applied (if applicable)
+    <!--- Remember to check the following README locations for common updates. →
+        <!--- Suggested install range (needed for breaking changes) →
+        <!--- Dependency matrix is appropriately updated (if applicable) →
+        <!--- New variable documentation (if applicable) -->
 - [ ] DECISIONLOG updates have been updated (if applicable)
 - [ ] Appropriate yml documentation has been added (if applicable)
 
