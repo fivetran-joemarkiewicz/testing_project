@@ -1,10 +1,10 @@
 ## PR Overview
-This PR will address the following Issue/Feature:
+**This PR will address the following Issue/Feature:**
 
-This PR will result in the following new package version:
+**This PR will result in the following new package version:**
 <!--- Please add details around your decision for breaking vs non-breaking version upgrade -->
 
-Please detail what change(s) this PR introduces and any additional information that should be known during the review of this PR:
+**Please detail what change(s) this PR introduces and any additional information that should be known during the review of this PR:**
 
 ## PR Checklist
 ### Basic Validation
@@ -42,3 +42,7 @@ Please acknowledge that your PR contains the following standard updates:
 ### dbt Docs
 Please acknowledge that after the above were all completed the below were applied to your branch:
 - [ ] docs were regenerated (unless this PR does not include any code or yml updates)
+
+### If you had to summarize this PR in an emoji, which would it be?
+<!--- For a complete list of markdown compatible emojis check our this git repo (https://gist.github.com/rxaviers/7360908)  --> 
+:dancer:
