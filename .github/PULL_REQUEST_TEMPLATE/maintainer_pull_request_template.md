@@ -30,7 +30,7 @@ Please acknowledge that your PR contains the following standard updates:
 - Package versioning has been appropriately indexed in the following locations:
     - [ ] indexed within dbt_project.yml
     - [ ] indexed within integration_tests/dbt_project.yml
-- [ ] CHANGELOG entry has been added
+- [ ] CHANGELOG has individual entries for each respective change in this PR
 - [ ] README updates have been applied (if applicable)
     <!--- Remember to check the following README locations for common updates. →
         <!--- Suggested install range (needed for breaking changes) →
