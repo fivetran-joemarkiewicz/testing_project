@@ -2,16 +2,17 @@
 **This PR will address the following Issue/Feature:**
 
 **This PR will result in the following new package version:**
-<!--- Please add details around your decision for breaking vs non-breaking version upgrade -->
+<!--- Please add details around your decision for breaking vs non-breaking version upgrade. If this is a breaking change, were backwards-compatible options explored? -->
 
 **Please detail what change(s) this PR introduces and any additional information that should be known during the review of this PR:**
 
 ## PR Checklist
 ### Basic Validation
 Please acknowledge that you have successfully performed the following commands locally:
+- [ ] dbt compile
+- [ ] dbt run –full-refresh
 - [ ] dbt run
 - [ ] dbt test
-- [ ] dbt run –full-refresh (if applicable)
 - [ ] dbt run –vars (if applicable)
 
 Before marking this PR as “ready for review” the following have been applied:
@@ -31,6 +32,7 @@ Please acknowledge that your PR contains the following standard updates:
     - [ ] indexed within dbt_project.yml
     - [ ] indexed within integration_tests/dbt_project.yml
 - [ ] CHANGELOG has individual entries for each respective change in this PR
+    <!--- If there is a parallel upstream change, remember to reference the corresponding CHANGELOG as an individual entry.  -->
 - [ ] README updates have been applied (if applicable)
     <!--- Remember to check the following README locations for common updates. →
         <!--- Suggested install range (needed for breaking changes) →
